@@ -9,6 +9,7 @@ def optimal_soln(arr,k):
         else:
             high=mid-1
     return low+k
+#----------------------------------------------------------
 #test cases
 arr=[2,3,4,7,11]
 k=5
